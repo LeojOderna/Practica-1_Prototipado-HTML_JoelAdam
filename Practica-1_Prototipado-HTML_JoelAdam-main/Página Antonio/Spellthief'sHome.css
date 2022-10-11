@@ -1,0 +1,171 @@
+
+.Title {
+
+    position: absolute;
+    top: 80px;
+    left: 33% ;
+    color: white;
+    font-size: 60px;
+
+}
+
+#Pentagram {
+
+    position: relative;
+    left: 25%;
+    margin-top: 20%;
+}
+
+
+
+
+
+/* BOTÓN DE PLOTLINE*/
+
+#PLOTLINE-BUTTON {
+
+    position: absolute;
+width: 140px;
+height: 140px;
+left: 45%;
+top:37%;
+
+border-radius: 50%;
+background: linear-gradient(180deg, rgba(0, 255, 117, 0.4) 0%, rgba(217, 217, 217, 0) 100%);
+transition: inherit 0.3s;
+
+}
+
+#Book-Mechanic-Logo {
+    position: absolute;
+width: 82.5px;
+height: 64px;
+left: 20.5%;
+top: 26.5%;
+
+}
+
+#PLOTLINE-BUTTON:hover {
+
+
+    background: url(Story\ Button\ Hover.png);
+
+}
+
+/*BOTÓN DE GAMEPLAY MECHANICS*/
+
+#MECHANIC-BUTTON {
+
+    position: absolute;
+width: 140px;
+height: 140px;
+left: 26%;
+top: 72%;
+
+border-radius: 50%;
+background: linear-gradient(180deg, rgba(0, 255, 117, 0.4) 0%, rgba(217, 217, 217, 0) 100%);
+
+}
+
+#MECHANIC-BUTTON:hover {
+
+    background: url(GameMechanics\ Hover\ \(1\).png);
+}
+
+
+
+/*BOTÓN DE ART GALLERY BUTTON*/
+
+#ART-BUTTON {
+
+    position: absolute;
+width: 140px;
+height: 140px;
+left: 66%;
+top: 72%;
+
+border-radius: 50%;
+background: linear-gradient(180deg, rgba(0, 255, 117, 0.4) 0%, rgba(217, 217, 217, 0) 100%);
+
+}
+
+
+
+#ART-BUTTON:hover {
+
+
+    background:url(Art\ Gallery\ Hover\ \(1\).png) ;
+    
+}
+
+
+
+/*BOTÓN DE GAMEPLAY MECHANICS*/
+
+#DEV-TEAM-BUTTON {
+
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 59%;
+    top: 113%;
+    
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(0, 255, 117, 0.4) 0%, rgba(217, 217, 217, 0) 100%);
+
+}
+
+#DEV-TEAM-BUTTON:hover {
+
+    background: url(About\ Dev\ Hover.png);
+
+}
+
+
+
+/*BOTÓN DEl FORMULARIO*/
+
+#DEV-DIARY-BUTTON {
+
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 32%;
+    top: 113%;
+    
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(0, 255, 117, 0.4) 0%, rgba(217, 217, 217, 0) 100%);
+
+}
+
+#DEV-DIARY-BUTTON:hover {
+
+    background: url(Dev\ Diary\ Hover.png);
+
+}
+
+p {
+    color: white;
+    margin-top: 15%;
+}
+
+.flex-container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex-container-2 {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 20%;
+
+}
+
+.Developers-Profile {
+
+    margin-left: 10%;
+}
